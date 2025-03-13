@@ -1,0 +1,3 @@
+[console_scripts]
+test_camera = camera.test_camera:main
+

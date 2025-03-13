@@ -1,0 +1,39 @@
+[0.246s] Invoking command in '/workspace/workspace/src/camera': PYTHONPATH=/workspace/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/workspace/build/camera/build install --record /workspace/workspace/build/camera/install.log --single-version-externally-managed install_data
+[0.337s] running egg_info
+[0.337s] creating ../../build/camera/camera.egg-info
+[0.337s] writing ../../build/camera/camera.egg-info/PKG-INFO
+[0.337s] writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+[0.337s] writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+[0.337s] writing requirements to ../../build/camera/camera.egg-info/requires.txt
+[0.338s] writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+[0.338s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.338s] reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.338s] writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+[0.338s] running build
+[0.338s] running build_py
+[0.339s] creating /workspace/workspace/build/camera/build
+[0.339s] creating /workspace/workspace/build/camera/build/lib
+[0.339s] creating /workspace/workspace/build/camera/build/lib/camera
+[0.339s] copying camera/fish_eye_camera_120.py -> /workspace/workspace/build/camera/build/lib/camera
+[0.339s] copying camera/__init__.py -> /workspace/workspace/build/camera/build/lib/camera
+[0.339s] running install
+[0.339s] running install_lib
+[0.339s] creating /workspace/workspace/install/camera/lib/python3.10/site-packages/camera
+[0.339s] copying /workspace/workspace/build/camera/build/lib/camera/fish_eye_camera_120.py -> /workspace/workspace/install/camera/lib/python3.10/site-packages/camera
+[0.339s] copying /workspace/workspace/build/camera/build/lib/camera/__init__.py -> /workspace/workspace/install/camera/lib/python3.10/site-packages/camera
+[0.339s] byte-compiling /workspace/workspace/install/camera/lib/python3.10/site-packages/camera/fish_eye_camera_120.py to fish_eye_camera_120.cpython-310.pyc
+[0.340s] byte-compiling /workspace/workspace/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+[0.340s] running install_data
+[0.340s] creating /workspace/workspace/install/camera/share/ament_index
+[0.340s] creating /workspace/workspace/install/camera/share/ament_index/resource_index
+[0.340s] creating /workspace/workspace/install/camera/share/ament_index/resource_index/packages
+[0.340s] copying resource/camera -> /workspace/workspace/install/camera/share/ament_index/resource_index/packages
+[0.340s] copying package.xml -> /workspace/workspace/install/camera/share/camera
+[0.340s] creating /workspace/workspace/install/camera/share/camera/json
+[0.340s] copying json/camera_config.json -> /workspace/workspace/install/camera/share/camera/json
+[0.340s] running install_egg_info
+[0.341s] Copying ../../build/camera/camera.egg-info to /workspace/workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+[0.341s] running install_scripts
+[0.350s] Installing fish_eye_camera_120 script to /workspace/workspace/install/camera/lib/camera
+[0.350s] writing list of installed files to '/workspace/workspace/build/camera/install.log'
+[0.360s] Invoked command in '/workspace/workspace/src/camera' returned '0': PYTHONPATH=/workspace/workspace/build/camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/workspace/install/camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera build --build-base /workspace/workspace/build/camera/build install --record /workspace/workspace/build/camera/install.log --single-version-externally-managed install_data

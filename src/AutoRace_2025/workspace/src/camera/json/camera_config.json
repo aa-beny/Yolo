@@ -1,0 +1,9 @@
+{
+    "camera_device": "/dev/mycamera",
+    "frame_width": 1920,
+    "frame_height": 1080,
+    "fps": 30,
+    "fourcc": "MJPG",
+    "topic_name": "rgb",
+    "node_name": "fish_eye_camera_120"
+}

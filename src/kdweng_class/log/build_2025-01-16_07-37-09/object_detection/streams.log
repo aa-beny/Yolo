@@ -1,0 +1,25 @@
+[0.748s] Invoking command in '/workspace/object_detection': PYTHONPATH=/workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/object_detection build --build-base /workspace/build/object_detection/build install --record /workspace/build/object_detection/install.log --single-version-externally-managed install_data
+[0.893s] running egg_info
+[0.893s] writing ../build/object_detection/object_detection.egg-info/PKG-INFO
+[0.894s] writing dependency_links to ../build/object_detection/object_detection.egg-info/dependency_links.txt
+[0.894s] writing entry points to ../build/object_detection/object_detection.egg-info/entry_points.txt
+[0.894s] writing requirements to ../build/object_detection/object_detection.egg-info/requires.txt
+[0.894s] writing top-level names to ../build/object_detection/object_detection.egg-info/top_level.txt
+[0.895s] reading manifest file '../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.895s] adding license file 'LICENSE'
+[0.896s] writing manifest file '../build/object_detection/object_detection.egg-info/SOURCES.txt'
+[0.896s] running build
+[0.896s] running build_py
+[0.896s] copying object_detection/yolov9.py -> /workspace/build/object_detection/build/lib/object_detection
+[0.896s] running install
+[0.896s] running install_lib
+[0.897s] copying /workspace/build/object_detection/build/lib/object_detection/yolov9.py -> /workspace/install/object_detection/lib/python3.10/site-packages/object_detection
+[0.897s] byte-compiling /workspace/install/object_detection/lib/python3.10/site-packages/object_detection/yolov9.py to yolov9.cpython-310.pyc
+[0.897s] running install_data
+[0.897s] running install_egg_info
+[0.899s] removing '/workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info' (and everything under it)
+[0.899s] Copying ../build/object_detection/object_detection.egg-info to /workspace/install/object_detection/lib/python3.10/site-packages/object_detection-0.0.0-py3.10.egg-info
+[0.899s] running install_scripts
+[0.914s] Installing yolov9 script to /workspace/install/object_detection/lib/object_detection
+[0.915s] writing list of installed files to '/workspace/build/object_detection/install.log'
+[0.936s] Invoked command in '/workspace/object_detection' returned '0': PYTHONPATH=/workspace/build/object_detection/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/object_detection/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/object_detection build --build-base /workspace/build/object_detection/build install --record /workspace/build/object_detection/install.log --single-version-externally-managed install_data

@@ -1,0 +1,37 @@
+running egg_info
+creating ../../build/camera/camera.egg-info
+writing ../../build/camera/camera.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera/camera.egg-info/dependency_links.txt
+writing entry points to ../../build/camera/camera.egg-info/entry_points.txt
+writing requirements to ../../build/camera/camera.egg-info/requires.txt
+writing top-level names to ../../build/camera/camera.egg-info/top_level.txt
+writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera/camera.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspace/workspace/build/camera/build
+creating /workspace/workspace/build/camera/build/lib
+creating /workspace/workspace/build/camera/build/lib/camera
+copying camera/fish_eye_camera_120.py -> /workspace/workspace/build/camera/build/lib/camera
+copying camera/__init__.py -> /workspace/workspace/build/camera/build/lib/camera
+running install
+running install_lib
+creating /workspace/workspace/install/camera/lib/python3.10/site-packages/camera
+copying /workspace/workspace/build/camera/build/lib/camera/fish_eye_camera_120.py -> /workspace/workspace/install/camera/lib/python3.10/site-packages/camera
+copying /workspace/workspace/build/camera/build/lib/camera/__init__.py -> /workspace/workspace/install/camera/lib/python3.10/site-packages/camera
+byte-compiling /workspace/workspace/install/camera/lib/python3.10/site-packages/camera/fish_eye_camera_120.py to fish_eye_camera_120.cpython-310.pyc
+byte-compiling /workspace/workspace/install/camera/lib/python3.10/site-packages/camera/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /workspace/workspace/install/camera/share/ament_index
+creating /workspace/workspace/install/camera/share/ament_index/resource_index
+creating /workspace/workspace/install/camera/share/ament_index/resource_index/packages
+copying resource/camera -> /workspace/workspace/install/camera/share/ament_index/resource_index/packages
+copying package.xml -> /workspace/workspace/install/camera/share/camera
+creating /workspace/workspace/install/camera/share/camera/json
+copying json/camera_config.json -> /workspace/workspace/install/camera/share/camera/json
+running install_egg_info
+Copying ../../build/camera/camera.egg-info to /workspace/workspace/install/camera/lib/python3.10/site-packages/camera-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fish_eye_camera_120 script to /workspace/workspace/install/camera/lib/camera
+writing list of installed files to '/workspace/workspace/build/camera/install.log'

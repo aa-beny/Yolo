@@ -1,0 +1,3 @@
+[console_scripts]
+yolov9 = object_detection.yolov9:main
+

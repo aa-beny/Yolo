@@ -1,0 +1,38 @@
+[0.493s] Invoking command in '/workspace/py_pubsub': PYTHONPATH=/workspace/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /workspace/build/py_pubsub/build install --record /workspace/build/py_pubsub/install.log --single-version-externally-managed install_data
+[0.628s] running egg_info
+[0.628s] creating ../build/py_pubsub/py_pubsub.egg-info
+[0.629s] writing ../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[0.629s] writing dependency_links to ../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[0.629s] writing entry points to ../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[0.629s] writing requirements to ../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[0.629s] writing top-level names to ../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[0.629s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.630s] reading manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.630s] adding license file 'LICENSE'
+[0.631s] writing manifest file '../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[0.631s] running build
+[0.631s] running build_py
+[0.631s] creating /workspace/build/py_pubsub/build
+[0.635s] creating /workspace/build/py_pubsub/build/lib
+[0.635s] creating /workspace/build/py_pubsub/build/lib/py_pubsub
+[0.635s] copying py_pubsub/pub.py -> /workspace/build/py_pubsub/build/lib/py_pubsub
+[0.635s] copying py_pubsub/__init__.py -> /workspace/build/py_pubsub/build/lib/py_pubsub
+[0.635s] running install
+[0.635s] running install_lib
+[0.636s] creating /workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.636s] copying /workspace/build/py_pubsub/build/lib/py_pubsub/pub.py -> /workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.636s] copying /workspace/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[0.636s] byte-compiling /workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/pub.py to pub.cpython-310.pyc
+[0.636s] byte-compiling /workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[0.636s] running install_data
+[0.637s] creating /workspace/install/py_pubsub/share/ament_index
+[0.637s] creating /workspace/install/py_pubsub/share/ament_index/resource_index
+[0.637s] creating /workspace/install/py_pubsub/share/ament_index/resource_index/packages
+[0.637s] copying resource/py_pubsub -> /workspace/install/py_pubsub/share/ament_index/resource_index/packages
+[0.637s] copying package.xml -> /workspace/install/py_pubsub/share/py_pubsub
+[0.637s] running install_egg_info
+[0.637s] Copying ../build/py_pubsub/py_pubsub.egg-info to /workspace/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[0.638s] running install_scripts
+[0.651s] Installing pub script to /workspace/install/py_pubsub/lib/py_pubsub
+[0.651s] writing list of installed files to '/workspace/build/py_pubsub/install.log'
+[0.675s] Invoked command in '/workspace/py_pubsub' returned '0': PYTHONPATH=/workspace/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/py_pubsub build --build-base /workspace/build/py_pubsub/build install --record /workspace/build/py_pubsub/install.log --single-version-externally-managed install_data

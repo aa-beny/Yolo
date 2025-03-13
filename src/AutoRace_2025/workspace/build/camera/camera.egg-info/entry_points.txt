@@ -1,0 +1,3 @@
+[console_scripts]
+fish_eye_camera_120 = camera.fish_eye_camera_120:main
+
